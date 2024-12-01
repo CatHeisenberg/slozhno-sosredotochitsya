@@ -5,14 +5,14 @@
 */
 
 .page.theme_dark {
-  --accent-color: #FF0070;
-  --text-color: #F1B2CE;
-  --color-title: #DB00FF;
+  --accent-color: #ff0070;
+  --text-color: #f1b2ce;
+  --color-title: #db00ff;
   --decoration-text: #000028;
   --bg-color: #000028;
-  --bottom-color: #FF0070;
-  --header-bg: #FF0070;
-  --hover: rgba(255, 0, 112, 0.40);
+  --bottom-color: #ff0070;
+  --header-bg: #ff0070;
+  --hover: rgba(255, 0, 112, 0.4);
 }
 
 .page.theme_dark .rec-style {
