@@ -1,20 +1,40 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_dark {
-  --accent-color: #ff0070;
-  --text-color: #f1b2ce;
-  --color-title: #db00ff;
-  --decoration-text: #000028;
-  --bg-color: #000028;
-  --bottom-color: #ff0070;
-  --header-bg: #ff0070;
-  --hover: rgba(255, 0, 112, 0.4);
+  --accent-color: var(--primary-pink, #ff0070);
+  --article-title-color: var(--deep-blue, #000028);
+  --bg-color: var(--deep-blue, #000028);
+  --bg-image: url('../images/cover-image-dark.png');
+  --decor-color-transparent: var(--tertiary-pink-40, rgba(255, 0, 112, 0.4));
+  --decor-color: var(--primary-pink, #ff0070);
+  --header-text-color: var(--deep-blue, #000028);
+  --hover-color: var(--neutral-grey, #353430);
+  --section-title-color: (--primary-pink, #ff0070);
+  --text-color: var(--quaternary-pink, #f1b2ce);
+  --title-color: var(--secondary-pink, #db00ff);
 }
 
 .page.theme_dark .rec-style {
   display: block;
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+      --accent-color: var(--primary-pink, #ff0070);
+      --article-title-color: var(--deep-blue, #000028);
+      --bg-color: var(--deep-blue, #000028);
+      --bg-image: url('../images/cover-image-dark.png');
+      --decor-color-transparent: var(--tertiary-pink-40, rgba(255, 0, 112, 0.4));
+      --decor-color: var(--primary-pink, #ff0070);
+      --header-text-color: var(--deep-blue, #000028);
+      --hover-color: var(--neutral-grey, #353430);
+      --section-title-color: (--primary-pink, #ff0070);
+      --text-color: var(--quaternary-pink, #f1b2ce);
+      --title-color: var(--secondary-pink, #db00ff);
+  }
+
+  .page.theme_dark .rec-style {
+      display: block;
+  }
+
 }

@@ -1,11 +1,25 @@
 :root {
-  --accent-color: #FF0070;
-  --text-color: #F1B2CE;
-  --bg-image: url(../images/cover-image-dark.png);
-  --color-title: #DB00FF;
-  --decoration-text: #000028;
-  --bg-color: #000028;
-  --bottom-style: #FF0070;
-  --decoration-bg: #FF0070;
-  --hover: rgba(255, 0, 112, 0.40);
+  /*Цвета*/
+
+  --primary-pink: #ff0070;
+  --secondary-pink: #db00ff;
+  --tertiary-pink-40: #ff007040;
+  --quaternary-pink: #f1b2ce;
+  --quinary-pink: #ff8dcb;
+  --senary-pink: #ffc2e6;
+  --septenary-pink: #fff1f7;
+
+  --deep-blue: #000028;
+  --neutral-grey: #353430;
+  --neutral-grey-40: #35343040;
+
+  /*Бэкграунд*/
+
+  --background-image: url('../images/cover-image-dark.png');
+
+  /*Шрифты и отступы*/
+
+  --font-family: "IBM Plex mono", monospace;
+  --font-size: 18px;
+  --gap: 20px;
 }
