@@ -184,7 +184,7 @@
   gap: var(--gap, 20px);
 }
 
-.article__title {
+.main__title {
   font-size: var(--font-size, 18px);
   margin-block-end: 10px;
 }
@@ -199,7 +199,7 @@
   color: var(--article-title-color, #000028);
 }
 
-.article-text {
+.main__text {
   font-size: var(--font-size, 18px);
   line-height: 23.5px;
 }
