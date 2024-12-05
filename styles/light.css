@@ -7,7 +7,7 @@
   --decor-color: var(--neutral-grey, #353430);
   --header-text-color: var(--neutral-grey, #353430);
   --hover-color: var(--neutral-grey, #353430);
-  --section-title-color: (--neutral-grey, #353430);
+  --section-title-color: var(--neutral-grey, #353430);
   --text-color: var(--neutral-grey, #f1b2ce);
   --title-color: var(--senary-pink, #ffc2e6);
 }
@@ -28,13 +28,13 @@
       --decor-color: var(--neutral-grey, #353430);
       --header-text-color: var(--neutral-grey, #353430);
       --hover-color: var(--neutral-grey, #353430);
-      --section-title-color: (--neutral-grey, #353430);
+      --section-title-color: var(--neutral-grey, #353430);
       --text-color: var(--neutral-grey, #f1b2ce);
       --title-color: var(--senary-pink, #ffc2e6);
   }
 
-  .page.theme_light .rec-icon {
-      display: none;
+  .rec-icon {
+    display: none;
   }
 
 }
