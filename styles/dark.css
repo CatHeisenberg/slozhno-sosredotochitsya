@@ -7,7 +7,7 @@
   --decor-color: var(--primary-pink, #ff0070);
   --header-text-color: var(--deep-blue, #000028);
   --hover-color: var(--neutral-grey, #353430);
-  --section-title-color: (--primary-pink, #ff0070);
+  --section-title-color: var(--primary-pink, #ff0070);
   --text-color: var(--quaternary-pink, #f1b2ce);
   --title-color: var(--secondary-pink, #db00ff);
 }
@@ -28,7 +28,7 @@
       --decor-color: var(--primary-pink, #ff0070);
       --header-text-color: var(--deep-blue, #000028);
       --hover-color: var(--neutral-grey, #353430);
-      --section-title-color: (--primary-pink, #ff0070);
+      --section-title-color: var(--primary-pink, #ff0070);
       --text-color: var(--quaternary-pink, #f1b2ce);
       --title-color: var(--secondary-pink, #db00ff);
   }

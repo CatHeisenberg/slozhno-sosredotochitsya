@@ -12,6 +12,8 @@
   grid-template-rows: 1fr min-content 1fr;
   position: relative;
   block-size: 100vh;
+  height: 100vh;
+  min-height: 668px;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
@@ -204,6 +206,10 @@
   line-height: 23.5px;
 }
 
+.main__text:not(:last-of-type) {
+  margin-block-end: 10px;
+}
+
 .concentration {
   display: flex;
   flex-direction: column;
@@ -267,6 +273,8 @@
   position: relative;
   inline-size: 100%;
   block-size: 100vh;
+  height: 100vh;
+  min-height: 668px;
 }
 
 .footer__title {
