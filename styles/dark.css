@@ -12,7 +12,7 @@
   --title-color: var(--secondary-pink, #db00ff);
 }
 
-.page.theme_dark .rec-style {
+.page.theme_dark .rec-icon {
   display: block;
 }
 
@@ -33,7 +33,7 @@
       --title-color: var(--secondary-pink, #db00ff);
   }
 
-  .page.theme_dark .rec-style {
+  .rec-icon {
       display: block;
   }
 
